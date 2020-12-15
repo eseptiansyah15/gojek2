@@ -5,11 +5,11 @@ system('clear');
 include "fcgomart.php";
 ulang:
 // function change(){
-echo color("purple","               CLAIM VOUCHER GOJEK   GOMART                  \n");
-echo color("red","                By : AS04        Recode :  ji4rz          \n");
-echo color("nevy","        Waktu  : ".date('[d-m-Y] [H:i:s]')."                        \n");
-echo color("green","         Donasi bisa ke nomer dana dibawah ini                       \n") ;
-echo color("yellow","                 DANA 089518550129                          \n");
+echo color("purple","CLAIM VOUCHER GOJEK   GOMART                  \n");
+echo color("red","By : AS04 // Recode :  ji4rz          \n");
+echo color("nevy","Waktu  : ".date('[d-m-Y] [H:i:s]')."                        \n");
+echo color("green","Donasi bisa ke nomer dana dibawah ini                       \n") ;
+echo color("yellow","DANA 089518550129                          \n");
 //echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
