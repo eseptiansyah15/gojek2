@@ -94,7 +94,7 @@ echo "\n";
         echo color("blue","👀 ");
         sleep(10);
         }
-         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
+         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PEJUANG2020"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
